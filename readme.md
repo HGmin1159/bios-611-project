@@ -1,6 +1,5 @@
 Hi, this is my 611 Data Science Project. More to come.
 
-
 ## Blueprint for BIOS 611 Project
 
 #### Data Set : COVID 19 worldwide case (https://www.kaggle.com/datasets/sandhyakrishnan02/latest-covid-19-dataset-worldwide?resource=download)
