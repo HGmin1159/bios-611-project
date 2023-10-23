@@ -1,8 +1,8 @@
 Hi, this is my 611 Data Science Project. More to come.
 
 > List of Current Results
-> - Death_Recovered_record_contrywise.png 
-> - Death_Recovered_record_daywise.png
+> - Death_Recovered_record_contrywise.png  
+> - Death_Recovered_record_daywise.png  
 > (Use make command at terminal to generate results)
 
 
