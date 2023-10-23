@@ -1,0 +1,5 @@
+Death_Recoverd_record_contrywise.png:python/draw_figure_contry.py
+	python3 python/draw_figure_contry.py
+
+Death_Recovered_record_daywise.png:python/draw_figure_day.py
+	python3 python/draw_figure_day.py

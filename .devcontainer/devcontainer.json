@@ -1,0 +1,10 @@
+{
+	"name": "Bios611_project",
+	"dockerFile": "../Dockerfile",
+	"context": "..",
+	"forwardPorts": [8888],
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	}
+  }
+  
