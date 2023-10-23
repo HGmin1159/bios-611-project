@@ -1,5 +1,13 @@
 Hi, this is my 611 Data Science Project. More to come.
 
+> List of Current Results
+> - Death_Recovered_record_contrywise.png 
+> - Death_Recovered_record_daywise.png
+> (Use make command at terminal to generate results)
+
+
+
+
 ## Blueprint for BIOS 611 Project
 
 #### Data Set : COVID 19 worldwide case (https://www.kaggle.com/datasets/sandhyakrishnan02/latest-covid-19-dataset-worldwide?resource=download)
