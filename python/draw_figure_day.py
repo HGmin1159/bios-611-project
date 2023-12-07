@@ -12,4 +12,4 @@ sns.lineplot(x=data["Date"],y=data["Recovered / 100 Cases"],label="Recovered / 1
 plt.title("Death and Recovered Statistics per 100 cases")
 plt.ylabel("")
 plt.legend()
-plt.savefig("./fig/Death_Recovered_record_daywise.png")
+plt.savefig("./result/Death_Recovered_record_daywise.png")
