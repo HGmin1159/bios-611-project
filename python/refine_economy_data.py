@@ -34,4 +34,4 @@ data_country.columns = ['Country/Region', 'Confirmed', 'Deaths', 'Recovered', 'A
 
 data = pd.merge(refined_data,data_country,left_on="Country",right_on="Country/Region")
 
-data.to_csv("../data/contrywise_economicdata.csv")
+data.to_csv("../derived_data/contrywise_economicdata.csv")

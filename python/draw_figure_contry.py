@@ -13,4 +13,4 @@ sns.barplot(x = temp_data.index.to_list(), y=temp_data.iloc[:,0].to_list(), colo
 
 plt.legend()
 plt.title("Death and Recovered Statistics per 100 Cases",fontsize=20)
-plt.savefig("./result/Death_Recovered_record_contrywise.png")
+plt.savefig("./figure/Death_Recovered_record_contrywise.png")
