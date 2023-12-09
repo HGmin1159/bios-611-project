@@ -19,5 +19,5 @@ RUN pip3 install bokeh
 RUN pip3 install jupyter_bokeh
 
 
-RUN R -e "install.packages(c('tidyverse', 'ggplot2'), repos='https://cloud.r-project.org/')"
+RUN R -e "install.packages(c('tidyverse', 'ggplot2','umap', repos='https://cloud.r-project.org/')"
 

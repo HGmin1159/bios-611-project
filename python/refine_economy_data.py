@@ -1,6 +1,7 @@
-import numpy as np
 import pandas as pd
-data = pd.read_csv("../data/WEO_Data.csv")
+
+data = pd.read_csv("./data/WEO_Data.csv")
+
 def convert_float(x) :
     try :
         return(float(x.replace(",","")))
@@ -25,7 +26,7 @@ refined_data = pd.merge(refined_data,data[["Country","2020"]][data["Subject Desc
 refined_data.columns = ["Country","GDP","GDPchange","GDPperCapita","Inflation","Import","Export","Population"]
 
 
-data_country = pd.read_csv("../data/country_wise_latest.csv")
+data_country = pd.read_csv("./data/country_wise_latest.csv")
 data_country.columns = ['Country/Region', 'Confirmed', 'Deaths', 'Recovered', 'Active',
        'New cases', 'New deaths', 'New recovered', 'Deathsper100Cases',
        'Recoveredper100Cases', 'Deathsper100Recovered',
@@ -34,4 +35,4 @@ data_country.columns = ['Country/Region', 'Confirmed', 'Deaths', 'Recovered', 'A
 
 data = pd.merge(refined_data,data_country,left_on="Country",right_on="Country/Region")
 
-data.to_csv("../derived_data/contrywise_economicdata.csv")
+data.to_csv("./derived_data/contrywise_economicdata.csv")

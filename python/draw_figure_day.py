@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("../data/day_wise.csv")
+data = pd.read_csv("./data/day_wise.csv")
 data["Date"] = pd.to_datetime(data["Date"])
 
 fig,ax = plt.subplots(1,2,figsize = (10,5))
