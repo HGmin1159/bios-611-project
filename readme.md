@@ -5,6 +5,8 @@
 
 My primary question is about the association between economy and COVID-19 of each country. Along with the primary dataset about COVID-19, I operated several statistical analysis including dimensionality reduction, clustering analysis and regression analysis. 
 
+In the case that you fail to make the report, I save the result file into backup folder. 
+
 To build docker container, please follow below instruction.
 
 1. Turn on the docker desktop. If you don't have the docker desktop, you can install it in here (https://www.docker.com/products/docker-desktop/)
@@ -33,3 +35,4 @@ To clean the output, please run the following code at terminal
 ```{}
 make clean
 ```
+
