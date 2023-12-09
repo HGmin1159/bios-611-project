@@ -1,0 +1,5 @@
+"0","bad_data <- tibble(r = sample(c(2,5),size=400,replace=TRUE) + rnorm(400,0,0.4),"
+"0","            theta = runif(400,0,2*pi)) %>%"
+"0","    transmute(x=r*cos(theta),"
+"0","              y=r*sin(theta));"
+"0","ggplot(bad_data, aes(x,y)) + geom_point() + coord_fixed();"

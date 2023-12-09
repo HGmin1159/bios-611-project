@@ -1,0 +1,3 @@
+"0","spike_counts <- spikes %>% group_by(trial) %>% tally() %>%"
+"0","    arrange(trial) %>% mutate(tritile=ntile(n, 3))"
+"0","ggplot(spike_counts, aes(n)) + geom_histogram()"

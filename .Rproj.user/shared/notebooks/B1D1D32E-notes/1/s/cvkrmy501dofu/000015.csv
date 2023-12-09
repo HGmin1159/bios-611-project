@@ -1,0 +1,2 @@
+"0","results <- prcomp(voltages);"
+"0","imagesc(results$x);"

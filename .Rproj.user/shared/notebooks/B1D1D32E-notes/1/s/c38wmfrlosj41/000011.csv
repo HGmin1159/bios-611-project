@@ -1,0 +1,7 @@
+"0","library(tidyverse);"
+"0","library(reticulate);"
+"0",""
+"0","use_python(""/usr/bin/python3"");"
+"2","use_python(""/usr/bin/python3"")에서 다음과 같은 에러가 발생했습니다:
+  Specified version of python '/usr/bin/python3' does not exist.
+"

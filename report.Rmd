@@ -8,7 +8,7 @@ editor_options:
     wrap: sentence
 ---
 
-## Introduction 
+## Introduction
 
 The coronavirus COVID-19, which originated in Wuhan, China in 2019, has had an unprecedented impact across the globe.
 Although its fatality rate is low, its extraordinarily high transmission rate has plunged the entire world into a new type of crisis.
@@ -17,7 +17,7 @@ The key elements of responding to an infectious disease include 1.
 the ability to produce accurate statistics, 2.
 medical capabilities in diagnosis, prevention, and treatment, and 3.
 the effectiveness of measures to minimize the risk of infection and suppress transmission.
-All these elements are influenced by a nation\'s characteristics, economic strength, medical science capabilities, and administrative efficiency.
+All these elements are influenced by a nation's characteristics, economic strength, medical science capabilities, and administrative efficiency.
 Therefore, this report aims to examine the situation of the COVID-19 crisis in various countries in 2020 and explore the relationship between COVID-19 and economic power.
 
 COVID-19, while having a low mortality rate, has an unprecedentedly high rate of infection, making it an extremely dangerous disease.

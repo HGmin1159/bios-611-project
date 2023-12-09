@@ -1,0 +1,2 @@
+"0","scaled <- data %>% group_by(time) %>% mutate(V = (V - mean(V))/sd(V));"
+"0","ggplot(scaled %>% filter(trial %in% seq(10)), aes(time, V)) + geom_line(aes(color=factor(trial)));"

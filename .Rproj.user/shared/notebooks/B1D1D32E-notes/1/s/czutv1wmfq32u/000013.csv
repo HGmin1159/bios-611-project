@@ -1,0 +1,2 @@
+"0","spikes <- data %>% group_by(trial) %>% filter(V >= 0 & lag(V) < 0) %>% ungroup();"
+"0","ggplot(spikes, aes(time, trial)) + geom_point(shape=""|"")"

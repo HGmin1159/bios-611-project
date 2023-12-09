@@ -1,16 +1,17 @@
 .PHONY: clean 
 
 clean:
-	if exist figure rmdir /s /q figure
-	if exist derived_data rmdir /s /q derived_data
-	if exist table rmdir /s /q table
-	if exist .created-dirs del .created-dirs
+	rm -rf figure
+	rm -rf derived_data
+	rm -rf table
+	rm -rf report.html
+	rm -rf .created-dirs
 
 .created-dirs:
-	if not exist figure mkdir figure
-	if not exist derived_data mkdir derived_data
-	if not exist table mkdir table
-	if not exist .created-dirs type nul > .created-dirs
+	mkdir -p figure
+	mkdir -p derived_data
+	mkdir -p table
+	touch .created-dirs
 
 derived_data/contrywise_economicdata.csv: .created-dirs python/refine_economy_data.py data/WEO_Data.csv data/country_wise_latest.csv
 	python python/refine_economy_data.py

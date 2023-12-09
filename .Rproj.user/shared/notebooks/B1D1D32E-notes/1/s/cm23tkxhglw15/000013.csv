@@ -1,0 +1,4 @@
+"0","data_2d <- results$x %>% as_tibble() %>% select(PC1, PC2);"
+"0","data_2d$spike_count <- spike_counts$n;"
+"0","data_2d$tritile <- spike_counts$tritile;"
+"0","ggplot(data_2d, aes(PC1,PC2)) + geom_point(aes(color=factor(tritile)));"

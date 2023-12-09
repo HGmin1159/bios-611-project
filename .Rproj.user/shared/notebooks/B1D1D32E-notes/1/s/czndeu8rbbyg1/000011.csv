@@ -1,0 +1,2 @@
+"0","results <- prcomp(bad_data %>% select(x,y) %>% as.matrix(), center=T, scale=T);"
+"0","ggplot(results$x %>% as_tibble(), aes(PC1,PC2)) + geom_point(aes(color=factor(bad_data$label)))"

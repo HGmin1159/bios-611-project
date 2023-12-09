@@ -1,0 +1,4 @@
+"0","d <- tibble(x=rnorm(1000,0,1),y=rnorm(1000,0,0.25)) %>%"
+"0","    mutate(x=cos(pi/8)*x - sin(pi/8)*y,"
+"0","           y=sin(pi/8)*x + cos(pi/8)*y);"
+"0","ggplot(d, aes(x,y)) + geom_point() + coord_fixed();"
